@@ -9,3 +9,8 @@ pandas
 flask
 flask-cors
 joblib
+
+# --- ML dependencies (REQUIRED) ---
+scikit-learn
+xgboost
+lightgbm
