@@ -8,3 +8,4 @@ numpy
 pandas
 flask
 flask-cors
+joblib
