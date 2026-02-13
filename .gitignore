@@ -1,0 +1,13 @@
+# data
+data/
+*.csv
+
+# ML models
+src/ml/models/*.pkl
+models/
+
+# cache
+__pycache__/
+
+.env
+*.env
