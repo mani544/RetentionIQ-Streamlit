@@ -4,6 +4,7 @@ Handles all PostgreSQL database interactions
 """
 
 import os
+import psycopg2
 from typing import Dict, Any, List, Optional
 from contextlib import contextmanager
 from sqlalchemy import create_engine
