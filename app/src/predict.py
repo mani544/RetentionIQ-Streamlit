@@ -1,12 +1,13 @@
+from pathlib import Path
 import pandas as pd
 import joblib
-from pathlib import Path
 
 # ======================================================
-# PATHS
+# PATHS (FIXED)
 # ======================================================
-BASE_DIR = Path(__file__).resolve().parents[2]
-MODEL_DIR = BASE_DIR / "src/ml/models"
+MODEL_DIR = Path(__file__).parent / "models"
+
+
 
 # ======================================================
 # LOAD MODELS
